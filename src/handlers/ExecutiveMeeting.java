@@ -21,7 +21,7 @@ public class ExecutiveMeeting extends Approver {
     }
 
     @Override
-    protected boolean canApprove(int id, double cost, Type type) {
+    protected boolean canApprove(double cost, Type type) {
         return false;
     }
 }
